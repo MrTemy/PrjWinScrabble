@@ -81,3 +81,13 @@ C:\Users\jean\V1_WinScrabble\WinScrabble\obj\Debug\WinScrabble.csproj.GenerateRe
 C:\Users\jean\V1_WinScrabble\WinScrabble\obj\Debug\WinScrabble.csproj.CoreCompileInputs.cache
 C:\Users\jean\V1_WinScrabble\WinScrabble\obj\Debug\WinScrabble.exe
 C:\Users\jean\V1_WinScrabble\WinScrabble\obj\Debug\WinScrabble.pdb
+C:\Users\jean\Desktop\PrjWinScrabble\WinScrabble\bin\Debug\WinScrabble.exe.config
+C:\Users\jean\Desktop\PrjWinScrabble\WinScrabble\bin\Debug\WinScrabble.exe
+C:\Users\jean\Desktop\PrjWinScrabble\WinScrabble\bin\Debug\WinScrabble.pdb
+C:\Users\jean\Desktop\PrjWinScrabble\WinScrabble\obj\Debug\WinScrabble.csproj.AssemblyReference.cache
+C:\Users\jean\Desktop\PrjWinScrabble\WinScrabble\obj\Debug\WinScrabble.frmScrabble.resources
+C:\Users\jean\Desktop\PrjWinScrabble\WinScrabble\obj\Debug\WinScrabble.Properties.Resources.resources
+C:\Users\jean\Desktop\PrjWinScrabble\WinScrabble\obj\Debug\WinScrabble.csproj.GenerateResource.cache
+C:\Users\jean\Desktop\PrjWinScrabble\WinScrabble\obj\Debug\WinScrabble.csproj.CoreCompileInputs.cache
+C:\Users\jean\Desktop\PrjWinScrabble\WinScrabble\obj\Debug\WinScrabble.exe
+C:\Users\jean\Desktop\PrjWinScrabble\WinScrabble\obj\Debug\WinScrabble.pdb

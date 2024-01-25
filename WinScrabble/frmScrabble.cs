@@ -35,16 +35,23 @@ namespace WinScrabble
             txtNbrMots.Text = nbMots.ToString();
             rtxtMot.Visible = true;
             btnOK.Enabled = false;
-            foreach (string mot in lesMots)
+            if (nbMots == 10)
             {
-                if (nbPoints > ptMotMax)
+                btnOK.Enabled = false;
+                btnAutre.Enabled = false;
+                rtxtMot.Focus();
+                foreach (string mot in lesMots)
                 {
-                    //couleur pr meilleur mot
-                    rtxtMot.AppendText(mot);
-                }
-                else
-                {
-                    rtxtMot.AppendText(mot);
+                    if (nbPoints > ptMotMax)
+                    {
+                        //couleur pr meilleur mot
+                        rtxtMot.AppendText(mot + "\n");
+                    }
+                    else
+                    {
+                        rtxtMot.AppendText(mot);
+                    }
+                    //labelMeilleurMot + "Votre meilleur mot est {0}",ptMotmax ;
                 }
             }
         }
@@ -56,11 +63,6 @@ namespace WinScrabble
             txtPoints.Clear();
             txtMot.Focus();
             btnOK.Enabled = true;
-            if(nbMots==10)
-            {
-                btnOK.Enabled = false;
-                btnAutre.Enabled = false;
-            }
         }
     }
 }

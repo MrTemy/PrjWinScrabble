@@ -44,6 +44,7 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.rtxtMot = new System.Windows.Forms.RichTextBox();
+            this.labelMeilleurMot = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -54,9 +55,9 @@
             this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(32, 38);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(64, 17);
+            this.label1.Size = new System.Drawing.Size(78, 17);
             this.label1.TabIndex = 0;
-            this.label1.Text = "BAnane";
+            this.label1.Text = "Votre mot";
             // 
             // txtMot
             // 
@@ -203,7 +204,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Location = new System.Drawing.Point(459, 22);
+            this.label9.Location = new System.Drawing.Point(541, 22);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(50, 13);
             this.label9.TabIndex = 16;
@@ -212,12 +213,22 @@
             // rtxtMot
             // 
             this.rtxtMot.Enabled = false;
-            this.rtxtMot.Location = new System.Drawing.Point(431, 38);
+            this.rtxtMot.Location = new System.Drawing.Point(511, 38);
             this.rtxtMot.Name = "rtxtMot";
             this.rtxtMot.ReadOnly = true;
             this.rtxtMot.Size = new System.Drawing.Size(112, 180);
             this.rtxtMot.TabIndex = 17;
             this.rtxtMot.Text = "";
+            // 
+            // labelMeilleurMot
+            // 
+            this.labelMeilleurMot.AutoSize = true;
+            this.labelMeilleurMot.BackColor = System.Drawing.Color.Transparent;
+            this.labelMeilleurMot.Location = new System.Drawing.Point(499, 277);
+            this.labelMeilleurMot.Name = "labelMeilleurMot";
+            this.labelMeilleurMot.Size = new System.Drawing.Size(15, 13);
+            this.labelMeilleurMot.TabIndex = 18;
+            this.labelMeilleurMot.Text = "jh";
             // 
             // frmScrabble
             // 
@@ -226,7 +237,8 @@
             this.BackColor = System.Drawing.SystemColors.Control;
             this.BackgroundImage = global::WinScrabble.Properties.Resources.FondScrabble;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(571, 282);
+            this.ClientSize = new System.Drawing.Size(669, 351);
+            this.Controls.Add(this.labelMeilleurMot);
             this.Controls.Add(this.rtxtMot);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
@@ -267,6 +279,7 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.RichTextBox rtxtMot;
+        private System.Windows.Forms.Label labelMeilleurMot;
     }
 }
 
